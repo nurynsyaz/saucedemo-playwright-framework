@@ -1,0 +1,21 @@
+{
+  "name": "saucedemo-playwright-framework",
+  "version": "1.0.0",
+  "description": "Playwright + TypeScript automation framework for saucedemo.com, using the Page Object Model.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "keywords": ["playwright", "typescript", "qa", "automation", "e2e"],
+  "author": "Nurin Syazwani",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.62.0",
+    "@types/node": "^26.1.2",
+    "typescript": "^7.0.2"
+  }
+}
